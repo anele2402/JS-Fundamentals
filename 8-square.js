@@ -1,10 +1,9 @@
-    let args = process.argv[2];
+let args = process.argv[2];
 let x = Number(args);
 
 if (args === undefined || isNaN(x)) {
     console.log("Missing number of occurences");
-} 
- else {
+} else {
     for (let i = 0; i < x; i++) {
         let row = "";
         for (let j = 0; j < x; j++) {
@@ -13,3 +12,4 @@ if (args === undefined || isNaN(x)) {
         console.log(row);
     }
 }
+

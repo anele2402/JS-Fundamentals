@@ -5,12 +5,8 @@
     let scnd = Number(argy);
 
 function add(argx , argy){
-
-    if (argx === undefined || argy=== undefined || isNaN(first) || isNaN(scnd)) {
-        console.log("Not a valid number");
-    } else {
         console.log(first + scnd);
-    }
+    
 }
 add(argx,argy)
 
